@@ -1,0 +1,38 @@
+{
+  "name": "Momentum",
+  "version": "0.0.1",
+  "description": "Local development perfected",
+  "homepage": "https://getmomentum.io",
+  "bugs": "https://github.com/section214/momentum/issues",
+  "license": "SEE LICENSE IN license.txt",
+  "private": true,
+  "main": "src/main.js",
+  "keywords": [
+    "development"
+  ],
+  "author": {
+    "name": "Momentum Team",
+    "email": "info@getmomentum.io",
+    "url": "https://getmomentum.io"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "electronVersion": "1.4.2",
+  "dependencies": {
+    "semver": "^5.3.0",
+    "electron-localshortcut": "^0.6.0",
+    "pkginfo": "^0.4.0",
+    "visual-prompt": "^0.0.5",
+    "node-notifier": "^4.6.1"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.2",
+    "jshint": "^2.9.2",
+    "electron-prebuilt": "^1.4.2"
+  },
+  "scripts": {
+    "start": "electron ./src/main.js"
+  }
+}
