@@ -29,18 +29,18 @@ global.momentum.window = null;
 // clicked and there are no other windows open.
 global.momentum.app.on('activate', function () {
     if (global.momentum.window === null) {
-        global.momentum.window = require(global.momentum.path + '/lib/window.js');
+        //global.momentum.window = require(global.momentum.path + '/lib/window.js');
 
-        global.momentum.window.createWindow();
+        //global.momentum.window.createWindow();
     }
 });
 
 
 // Go!
 global.momentum.app.on('ready', function() {
-    global.momentum.window = require(global.momentum.path + '/lib/window.js');
+    //global.momentum.window = require(global.momentum.path + '/lib/window.js');
 
-    global.momentum.window.createWindow();
+    //global.momentum.window.createWindow();
 });
 
 
