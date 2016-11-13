@@ -2,7 +2,7 @@
  * Momentum - Your next development environment
  * Copyright (C) 2016 Section214, LLC
  *
- * @author      Daniel J Griffiths <dgriffiths@getmomentum.io>
+ * @author      Momentum Team <info@getmomentum.io>
  * @version     0.0.1
  */
 
