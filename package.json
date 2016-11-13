@@ -1,38 +1,32 @@
 {
-  "name": "Momentum",
-  "version": "0.0.1",
-  "description": "Local development perfected",
+  "name": "momentum",
+  "productName": "Momentum",
+  "version": "0.0.1-dev",
+  "description": "Your next development environment",
   "homepage": "https://getmomentum.io",
-  "bugs": "https://github.com/section214/momentum/issues",
-  "license": "SEE LICENSE IN license.txt",
+  "bugs": "https://getmomentum.io/support",
+  "license": "SEE LICENSE IN LICENSE.md",
   "private": true,
-  "main": "src/main.js",
-  "keywords": [
-    "development"
-  ],
+  "main": "./src/main-process/main.js",
   "author": {
     "name": "Momentum Team",
     "email": "info@getmomentum.io",
     "url": "https://getmomentum.io"
   },
-  "engines": {
-    "node": ">=4",
-    "npm": ">=3"
-  },
   "electronVersion": "1.4.2",
   "dependencies": {
-    "semver": "^5.3.0",
     "electron-localshortcut": "^0.6.0",
+    "node-notifier": "^4.6.1",
     "pkginfo": "^0.4.0",
-    "visual-prompt": "^0.0.5",
-    "node-notifier": "^4.6.1"
+    "semver": "^5.3.0",
+    "visual-prompt": "^0.0.5"
   },
   "devDependencies": {
     "devtron": "^1.1.2",
-    "jshint": "^2.9.2",
-    "electron-prebuilt": "^1.4.2"
+    "electron-prebuilt": "^1.4.2",
+    "jshint": "^2.9.2"
   },
   "scripts": {
-    "start": "electron ./src/main.js"
+    "start": "electron ./src/main-process/main.js"
   }
 }
