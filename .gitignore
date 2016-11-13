@@ -7,9 +7,6 @@ npm-debug.log*
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
-# Config files
-config/auth.json
-
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -40,3 +37,7 @@ tests/clover.xml
 
 # Temporary files
 *~
+
+# Build files
+/out/
+out/
