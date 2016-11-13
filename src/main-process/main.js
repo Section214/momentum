@@ -1,5 +1,5 @@
 /**
- * Momentum - Local development perfected
+ * Momentum - Your next development environment
  * Copyright (C) 2016 Section214, LLC
  *
  * @author      Daniel J Griffiths <dgriffiths@getmomentum.io>
